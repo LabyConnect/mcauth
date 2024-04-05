@@ -47,8 +47,8 @@ export class YggdrasilClient {
         accessToken: string,
         selectedProfile: string, // UUID
         serverId: string,
-        sharedSecret: string,
-        publicKey: string
+        sharedSecret: Buffer,
+        publicKey: Buffer
     ) {
         return new Promise((resolve) => {
             request("https://sessionserver.mojang.com/session/minecraft/join", {
