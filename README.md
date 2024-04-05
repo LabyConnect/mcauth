@@ -1,2 +1,2 @@
 # mcauth
-Microsoft and Mojang authentication for Node.js inspired by [prismarine-auth](https://github.com/PrismarineJS/prismarine-auth) and powered by [undici](https://github.com/nodejs/undici)
+Microsoft and Mojang authentication(with yggdrasil) for Node.js inspired by [prismarine-auth](https://github.com/PrismarineJS/prismarine-auth) and powered by [undici](https://github.com/nodejs/undici)
