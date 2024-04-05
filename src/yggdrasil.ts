@@ -8,8 +8,8 @@ export class YggdrasilClient {
     
     generateHexDigest(
         serverId: string,
-        sharedSecret: string,
-        publicKey: string
+        sharedSecret: Buffer,
+        publicKey: Buffer
     ) {
         let hash = createHash("sha1")
             .update(serverId)
