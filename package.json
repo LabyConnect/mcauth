@@ -1,5 +1,5 @@
 {
-    "name": "mcauth",
+    "name": "mc-auth",
     "version": "0.0.1",
     "description": "Microsoft and Mojang authentication for Node.js",
     "main": "dist/index.js",
