@@ -1,0 +1,22 @@
+{
+    "name": "mcauth",
+    "version": "0.0.1",
+    "description": "Microsoft and Mojang authentication for Node.js",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "npx tsc",
+        "test": "tsm node_modules/uvu/bin.js tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LabyConnect/mcauth"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.4",
+        "typescript": "^5.4.4",
+        "uvu": "^0.5.6"
+    },
+    "dependencies": {
+        "undici": "^6.11.1"
+    }
+}
