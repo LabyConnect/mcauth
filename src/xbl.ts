@@ -30,7 +30,10 @@ export async function exchangeRpsTicketForUserToken(rpsTicket: string, preamable
                     SiteName: 'user.auth.xboxlive.com',
                     RpsTicket: rpsTicket
                 }
-            })
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
         }).then(async (res) => {
             resolve(await res.body.json() as ExchangeRpsTicketResponse)
         })
