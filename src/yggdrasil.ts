@@ -49,7 +49,7 @@ export class YggdrasilClient {
         serverId: string,
         sharedSecret: Buffer,
         publicKey: Buffer
-    ) {
+    ): Promise<void> {
         return new Promise((resolve) => {
             request("https://sessionserver.mojang.com/session/minecraft/join", {
                 method: "POST",
@@ -61,7 +61,7 @@ export class YggdrasilClient {
                 headers: {
                     "Content-Type": "application/json"
                 }
-            }).then(async (res) => resolve(await res.body.json()))
+            }).then(() => resolve())
         })
     }
 }
