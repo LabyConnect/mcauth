@@ -1,6 +1,6 @@
 {
     "name": "@labyconnect/mcauth",
-    "version": "0.0.6",
+    "version": "0.1.0",
     "description": "Microsoft and Mojang authentication for Node.js",
     "main": "dist/index.js",
     "scripts": {
